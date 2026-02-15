@@ -43,8 +43,8 @@ def fillCorner(myTurtle, corner):
         
 #Drawing Squares in squares
 def squaresInSquares(myTurtle, num):
-    start_size = 40
-    step = 20
+    start_size = 30
+    step = 15
     for i in range(num):
         size = start_size + i * step
         myTurtle.penup()
